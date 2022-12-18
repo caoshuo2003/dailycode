@@ -43,11 +43,11 @@ public abstract class Shape {
             this.width = width;
         }
 
-//        @Override
-//        public double CalcArea() throws NotImplementedException {
-//            double area = number * width;
-//            return area;
-//        }
+       @Override
+       public double CalcArea() throws NotImplementedException {
+           double area = number * width;
+           return area;
+       }
     }
 
     public static void main(String[] args) {
